@@ -2,13 +2,11 @@
   border: 1px solid white;
   border-radius: 6px;
   margin: 16px;
-  padding: 0;
+  padding: 10px;
   text-decoration: none;
   color:aliceblue;
   background-color:cadetblue;
 }
-
-
 
 .Gif img {
   object-fit: contain;

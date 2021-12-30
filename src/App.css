@@ -12,3 +12,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+a {
+  text-decoration: none;
+  color:coral;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited { 
+  color: rgb(173, 88, 57);
+}

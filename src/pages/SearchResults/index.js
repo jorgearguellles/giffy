@@ -1,10 +1,19 @@
-import React from 'react'
+import { ListOfGifs } from "../../components/ListOfGifs";
+import { Spinner } from "../../components/Spinner";
+import { useGetGifs } from '../../hooks/useGetGifs';
 
-const SearchResults = () => {
+const SearchResults = ({params}) => {
+  const { keyword } = params;
+  const {loading, gifs} = useGetGifs({keyword});
+
   return (
-    <div>
-      
-    </div>
+    <>
+      {
+        loading
+          ? <Spinner />
+          : <ListOfGifs gifs={gifs} />
+      }
+    </>
   )
 }
 

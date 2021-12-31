@@ -1,5 +1,9 @@
+
 .gif-popular{
   text-decoration: none;
   color:coral;
   cursor: pointer;
+  list-style: none;
+  text-align: start;
+  margin-left: -53px;
 }

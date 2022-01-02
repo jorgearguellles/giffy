@@ -5,5 +5,13 @@
   cursor: pointer;
   list-style: none;
   text-align: start;
-  margin-left: -53px;
+  margin-left: -27px;
+}
+
+.App-title{
+  margin-bottom: 0;
+}
+
+.list-gifs-populars{
+  margin: 0;
 }

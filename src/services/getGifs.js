@@ -1,7 +1,7 @@
 const API_KEY = 'ZWQAvvRRPDQe5qVs15sshECKYL22aG1J';
 
 function getGifs({ keyword = 'pokemon' } = {}){
-  const API_URL = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${keyword}&limit=10&offset=0&rating=g&lang=en`;
+  const API_URL = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${keyword}&limit=25&offset=0&rating=g&lang=en`;
 
   return fetch(API_URL)
     .then(res => res.json())

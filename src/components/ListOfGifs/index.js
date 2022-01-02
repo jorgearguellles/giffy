@@ -1,4 +1,5 @@
 import { Gif } from "../Gif";
+import "./ListOfGifs.css";
 
 const ListOfGifs = ({gifs}) => {
 

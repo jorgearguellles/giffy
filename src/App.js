@@ -8,10 +8,12 @@ import { Link, Route } from "wouter";
 
 function App() {
   return (
-    <StaticContext.Provider value={{
-      name: 'midudev',
-      susbcribe: true
-    }}>
+    <StaticContext.Provider value={
+      {
+        name: 'midudev',
+        susbcribe: true
+      }
+    }>
       <div className="App">
         <section className="App-content">
           <Link to="/">
